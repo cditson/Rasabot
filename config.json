@@ -1,0 +1,14 @@
+{
+    "data":"./data/data.json",
+    "config_spacy":"./config_spacy.json",
+    "model_directory":"./models/nlu",
+    "model_name":"CallCentre",
+    "domain":"./domain.yml",
+    "stories":"./data/stories.md",
+    "dialogue":"./models/dialogue",
+    "slack":{
+        "oauth_access_token" : "",
+        "user_oauth_access_token":"",
+        "verification_token":""
+    }
+}

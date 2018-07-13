@@ -1,0 +1,42 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_bye
+- utter_ask_application
+- utter_ask_username
+- reset_account
+actions:
+- utter_greet
+- utter_bye
+- utter_ask_application
+- utter_ask_username
+- actions.ResetAccount
+config:
+  store_entities_as_slots: true
+entities:
+- application
+- username
+intents:
+- greet
+- bye
+- reset
+slots:
+  application:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  username:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_application:
+  - text: In which application?
+  utter_ask_username:
+  - text: Whats the username?
+  - text: Whats your username?
+  utter_bye:
+  - text: Thank you! Have a nice day
+  - text: Bye, take care
+  utter_greet:
+  - text: Hello, How can I help you?
+  - text: Hi, What can I do for you?
+topics: []

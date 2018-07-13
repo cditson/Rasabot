@@ -1,0 +1,37 @@
+slots:
+  application:
+    type: text
+  username:
+    type: text
+
+intents:
+  - greet
+  - bye
+  - reset
+
+entities:
+  - application
+  - username
+
+templates:
+  utter_greet:
+    - 'Hello, How can I help you?'
+    - 'Hi, What can I do for you?'
+
+  utter_bye:
+    - 'Thank you! Have a nice day'
+    - 'Bye, take care'
+
+  utter_ask_application:
+    - 'In which application?'
+
+  utter_ask_username:
+    - 'Whats the username?'
+    - 'Whats your username?'
+  
+actions:
+  - utter_greet
+  - utter_bye
+  - utter_ask_application
+  - utter_ask_username
+  - actions.ResetAccount

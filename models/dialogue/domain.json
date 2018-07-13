@@ -1,0 +1,18 @@
+{
+  "states": [
+    "intent_greet",
+    "intent_bye",
+    "intent_reset",
+    "entity_application",
+    "entity_username",
+    "slot_application_0",
+    "slot_username_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_bye",
+    "prev_utter_ask_application",
+    "prev_utter_ask_username",
+    "prev_reset_account"
+  ]
+}

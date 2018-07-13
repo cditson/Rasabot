@@ -1,0 +1,139 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Can you please reset my ServiceNow account",
+        "intent": "reset",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "ServiceNow",
+            "entity": "application"
+          }
+        ]
+      },
+      {
+        "text": "bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "thank you ",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "Can you please reset my account",
+        "intent": "reset",
+        "entities": []
+      },
+      {
+        "text": "GlobalGenius",
+        "intent": "reset",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "GlobalGenius",
+            "entity": "application"
+          }
+        ]
+      },
+      {
+        "text": "Can you please reset my Jabber account, my username is abc123",
+        "intent": "reset",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "Jabber",
+            "entity": "application"
+          },
+          {
+            "start": 55,
+            "end": 61,
+            "value": "abc123",
+            "entity": "username"
+          }
+        ]
+      },
+      {
+        "text": "my jabber account is locked can you unlock my account please",
+        "intent": "reset",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "jabber",
+            "entity": "application"
+          }
+        ]
+      },
+      {
+        "text": "janarthanan.kanagaraj@gmail.com",
+        "intent": "reset",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "janarthanan.kanagaraj@gmail.com",
+            "entity": "username"
+          }
+        ]
+      },
+      {
+        "text": "my username is abc@gmail.com , can you reset my outlook password please",
+        "intent": "reset",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "abc@gmail.com",
+            "entity": "username"
+          },
+          {
+            "start": 48,
+            "end": 55,
+            "value": "outlook",
+            "entity": "application"
+          }
+        ]
+      },
+      {
+        "text": "I am unable to login to ServiceNow application. Can you please look into it",
+        "intent": "reset",
+        "entities": [
+          {
+            "start": 24,
+            "end": 34,
+            "value": "ServiceNow",
+            "entity": "application"
+          }
+        ]
+      },
+      {
+        "text": "username is b01235",
+        "intent": "reset",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "b01235",
+            "entity": "username"
+          }
+        ]
+      }
+    ]
+  }
+}
